@@ -1,0 +1,72 @@
+/* Variables CSS */
+
+:root {
+  /* Colors */
+  --primary-color: #e0a458;
+  --primary-light: #f0c27b;
+  --primary-dark: #c78c3e;
+  
+  --secondary-color: #6b4226;
+  --secondary-light: #8c6242;
+  --secondary-dark: #4a2e1b;
+  
+  --accent-color: #ff6b6b;
+  --accent-light: #ff8e8e;
+  --accent-dark: #e54b4b;
+  
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+  
+  --background-color: #ffffff;
+  --background-alt: #f9f5f0;
+  
+  --text-color: #333333;
+  --text-light: #666666;
+  --heading-color: #222222;
+  
+  --light-gray: #eeeeee;
+  --medium-gray: #dddddd;
+  --dark-gray: #888888;
+  
+  /* Typography */
+  --heading-font: 'Playfair Display', serif;
+  --body-font: 'Poppins', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;  /* 4px */
+  --spacing-sm: 0.5rem;   /* 8px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+  --spacing-xxl: 3rem;    /* 48px */
+  
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-pill: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Z-index */
+  --z-negative: -1;
+  --z-elevate: 1;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-popover: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+  --z-preloader: 9999;
+}

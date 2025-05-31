@@ -1,0 +1,246 @@
+/* Contact Page Specific Styles */
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    gap: var(--spacing-xxl);
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    margin-bottom: var(--spacing-md);
+}
+
+.contact-info > p {
+    margin-bottom: var(--spacing-lg);
+    max-width: 500px;
+}
+
+.info-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(182, 139, 64, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--primary);
+    margin-right: var(--spacing-md);
+    flex-shrink: 0;
+}
+
+.info-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-content p {
+    font-size: 14px;
+    color: var(--text-medium);
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.contact-social h3 {
+    font-size: 18px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-social .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--off-white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: var(--text-dark);
+    transition: all var(--transition-fast);
+}
+
+.contact-social .social-icons a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* Contact Form */
+.contact-form-container {
+    flex: 1;
+    background-color: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-md);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .form-row {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-sm);
+    font-family: var(--body-font);
+    font-size: 14px;
+    outline: none;
+    transition: border-color var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary);
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 15px;
+}
+
+/* Map Section */
+.map-section {
+    height: 500px;
+}
+
+#contactMap {
+    width: 100%;
+    height: 100%;
+}
+
+/* Catering Section */
+.catering-section {
+    display: flex;
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    gap: var(--spacing-xxl);
+    background-color: var(--off-white);
+}
+
+.catering-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catering-content h2 {
+    font-size: 36px;
+    margin-bottom: var(--spacing-md);
+}
+
+.catering-features {
+    margin-bottom: var(--spacing-lg);
+}
+
+.catering-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.catering-features i {
+    color: var(--primary);
+    margin-right: var(--spacing-sm);
+}
+
+.catering-image {
+    flex: 1;
+}
+
+.catering-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+}
+
+/* Form Success Message */
+.form-success-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.form-success-message.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.success-content {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: var(--radius-md);
+    text-align: center;
+    max-width: 400px;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.form-success-message.active .success-content {
+    transform: scale(1);
+}
+
+.success-icon {
+    font-size: 60px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.close-success {
+    margin-top: 20px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-success:hover {
+    background-color: var(--primary-dark);
+}

@@ -1,0 +1,273 @@
+/* About Page Specific Styles */
+
+/* About Intro Section */
+.about-intro {
+    display: flex;
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    gap: var(--spacing-xl);
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: var(--spacing-md);
+}
+
+.about-signature {
+    display: flex;
+    align-items: center;
+    margin-top: var(--spacing-md);
+}
+
+.about-signature img {
+    height: 60px;
+    margin-right: var(--spacing-md);
+}
+
+.signature-text p {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.signature-text span {
+    font-size: 14px;
+    color: var(--text-medium);
+}
+
+/* Values Section */
+.values-section {
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    background-color: var(--off-white);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.value-item {
+    text-align: center;
+    padding: var(--spacing-lg);
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform var(--transition-medium);
+}
+
+.value-item:hover {
+    transform: translateY(-10px);
+}
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto var(--spacing-md);
+    background-color: rgba(182, 139, 64, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: var(--primary);
+}
+
+.value-item h3 {
+    font-size: 18px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.value-item p {
+    font-size: 14px;
+    color: var(--text-medium);
+    margin-bottom: 0;
+}
+
+/* Team Section */
+.team-section {
+    padding: var(--spacing-xxl) var(--spacing-xl);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.team-member {
+    text-align: center;
+}
+
+.member-image {
+    position: relative;
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+    border-radius: var(--radius-md);
+}
+
+.member-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform var(--transition-medium);
+}
+
+.team-member:hover .member-image img {
+    transform: scale(1.05);
+}
+
+.member-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all var(--transition-medium);
+}
+
+.team-member:hover .member-social {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.member-social a {
+    width: 32px;
+    height: 32px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: var(--text-dark);
+    transition: all var(--transition-fast);
+}
+
+.member-social a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.member-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.member-info p {
+    font-size: 14px;
+    color: var(--primary);
+    margin-bottom: 0;
+}
+
+/* Reviews Section */
+.reviews-section {
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    background-color: var(--off-white);
+}
+
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.google-rating {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.rating-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.rating-header img {
+    height: 30px;
+    margin-right: var(--spacing-sm);
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.rating-stars span {
+    margin-left: var(--spacing-xs);
+    font-weight: 600;
+}
+
+.google-rating p {
+    color: var(--text-medium);
+    margin-bottom: 0;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.review-card {
+    background-color: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.review-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: var(--spacing-sm);
+}
+
+.reviewer-info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.review-stars {
+    color: var(--primary);
+    font-size: 12px;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: var(--text-medium);
+    margin-bottom: 0;
+    font-style: italic;
+}

@@ -1,0 +1,31 @@
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .logo-text {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.preloader .logo-text {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .preloader .logo-text {
+        font-size: 2rem;
+    }
+}

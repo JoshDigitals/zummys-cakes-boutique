@@ -1,0 +1,38 @@
+This is a placeholder file. In a real project, you would add image files here.
+
+The required images for this project are:
+- logo.png
+- logo-white.png
+- map-marker.png
+- badge-circle.png
+- badge-circle-pastries.png
+- badge-circle-coffee.png
+- heart.png
+- breakfast-icon.png
+- snack-icon.png
+- pastry-icon.png
+- bread-icon.png
+- coffee-icon.png
+- dessert-icon.png
+- sandwich.png
+- croissant.png
+- coffee.png
+- french-bread.jpg
+- princess-cake.jpg
+- coffee-cup.jpg
+- chocolate-cookie.jpg
+- salmon-sandwich.jpg
+- coffee-arabica.jpg
+- pain-baguette.jpg
+- focaccia-ciabatta.jpg
+- category-breakfast.jpg
+- category-pastry.jpg
+- category-sandwiches.jpg
+- category-coffee.jpg
+- brownies.jpg
+- testimonial-bg.jpg
+- news-1.jpg
+- news-2.jpg
+- insta-1.jpg through insta-6.jpg
+
+In a real implementation, these would be actual image files.

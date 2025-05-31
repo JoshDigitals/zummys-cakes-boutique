@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zummys Cake’s boutique </title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-inner">
+      <h1 class="logo-text">Zummys Cake’s boutique</h1>
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="brand-container">
+        <a href="index.html" class="logo">
+          <h1 class="logo-text">Zummys Cake’s boutique</h1>
+        </a>
+      </div>
+      
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link active">HOME</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PAGES</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SHOP</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">ELEMENTS</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="search-container">
+          <button class="search-toggle" aria-label="Toggle search">
+            <i class="fas fa-search"></i>
+          </button>
+          <div class="search-dropdown">
+            <form class="search-form">
+              <input type="text" placeholder="Search products..." class="search-input">
+              <button type="submit" class="search-button">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <div class="search-results"></div>
+          </div>
+        </div>
+        <a href="#" class="cart-icon">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link active">HOME</a></li>
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">PAGES</a></li>
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">BLOG</a></li>
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">PORTFOLIO</a></li>
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">SHOP</a></li>
+        <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">ELEMENTS</a></li>
+      </ul>
+      <div class="mobile-search">
+        <form class="mobile-search-form">
+          <input type="text" placeholder="Search products..." class="mobile-search-input">
+          <button type="submit" class="mobile-search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-badge">
+      <span>BEST SELLER OF THE WEEK</span>
+    </div>
+    <div class="hero-slider">
+      <div class="hero-slider-wrapper">
+        
+        <div class="hero-slide active">
+          <div class="hero-content">
+            <div class="hero-text-content">
+              <h2 class="hero-subtitle">Our Delicious</h2>
+              <h1 class="hero-title">SANDWICHES</h1>
+              <div class="hero-categories">
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/breakfast-icon.png" alt="BREAKFAST Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>BREAKFAST</h3>
+                    <p>Start your day with our fresh breakfast options.</p>
+                  </div>
+                </div>
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/snack-icon.png" alt="HEALTHY SNACK Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>HEALTHY SNACK</h3>
+                    <p>Enjoy a healthy snack any time of day.</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/sandwich.png" alt="SANDWICHES">
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-slide ">
+          <div class="hero-content">
+            <div class="hero-text-content">
+              <h2 class="hero-subtitle">Our Freshly Baked</h2>
+              <h1 class="hero-title">PASTRIES</h1>
+              <div class="hero-categories">
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/pastry-icon.png" alt="CROISSANTS Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>CROISSANTS</h3>
+                    <p>Flaky, buttery croissants baked daily.</p>
+                  </div>
+                </div>
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/bread-icon.png" alt="ARTISAN BREAD Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>ARTISAN BREAD</h3>
+                    <p>Handcrafted artisan breads.</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/croissant.png" alt="PASTRIES">
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-slide ">
+          <div class="hero-content">
+            <div class="hero-text-content">
+              <h2 class="hero-subtitle">Our Premium</h2>
+              <h1 class="hero-title">COFFEE</h1>
+              <div class="hero-categories">
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/coffee-icon.png" alt="SPECIALTY BREWS Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>SPECIALTY BREWS</h3>
+                    <p>Enjoy our specialty coffee brews.</p>
+                  </div>
+                </div>
+                
+                <div class="hero-category">
+                  <div class="category-icon">
+                    <img src="images/dessert-icon.png" alt="COFFEE PAIRINGS Icon">
+                  </div>
+                  <div class="category-content">
+                    <h3>COFFEE PAIRINGS</h3>
+                    <p>Perfect pairings for your coffee.</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="images/coffee.png" alt="COFFEE">
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="hero-slider-controls">
+        <button class="slider-prev">
+          <i class="fas fa-chevron-left"></i>
+          <span>PREV</span>
+        </button>
+        <div class="slider-pagination">
+          
+          <span class="pagination-dot active" data-slide="0"></span>
+          
+          <span class="pagination-dot " data-slide="1"></span>
+          
+          <span class="pagination-dot " data-slide="2"></span>
+          
+        </div>
+        <button class="slider-next">
+          <span>NEXT</span>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Products Section -->
+  <section class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">POPULAR PRODUCTS</h2>
+        <p class="section-subtitle">Discover our most loved products, freshly made every day for you.</p>
+      </div>
+      <div class="products-grid">
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/french-bread.jpg" alt="FRENCH BREAD">
+            <div class="product-badge">SALE</div>
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">FRENCH BREAD</h3>
+            <p class="product-price">$3.50</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/princess-cake.jpg" alt="PRINCESS CAKE">
+            
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">PRINCESS CAKE</h3>
+            <p class="product-price">$12.99</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/coffee-cup.jpg" alt="COFFEE CUSTOM">
+            
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">COFFEE CUSTOM</h3>
+            <p class="product-price">$5.00</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/chocolate-cookie.jpg" alt="CHOCOLATE COOKIE">
+            
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">CHOCOLATE COOKIE</h3>
+            <p class="product-price">$2.50</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/salmon-sandwich.jpg" alt="SALMON SANDWICH">
+            
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">SALMON SANDWICH</h3>
+            <p class="product-price">$12.50</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/coffee-arabica.jpg" alt="COFFEE ARABICA">
+            <div class="product-badge">SALE</div>
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">COFFEE ARABICA</h3>
+            <p class="product-price">$8.50</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/pain-baguette.jpg" alt="PAIN BAGUETTE">
+            
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">PAIN BAGUETTE</h3>
+            <p class="product-price">$3.00</p>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/focaccia-ciabatta.jpg" alt="FOCACCIA CIABATTA">
+            <div class="product-badge">NEW</div>
+            <div class="product-actions">
+              <button class="product-action-btn"><i class="fas fa-shopping-cart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+              <button class="product-action-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <h3 class="product-title">FOCACCIA CIABATTA</h3>
+            <p class="product-price">$5.50</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="testimonial-slider">
+        
+        <div class="testimonial-slide active">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"As chefs, especially pastry chefs, your creativity plays such a big part of daily work."</p>
+          <p class="testimonial-author">JOE ROBERTS</p>
+        </div>
+        
+        <div class="testimonial-slide ">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"The bread from our bakery has revolutionized my breakfast experience. Simply divine!"</p>
+          <p class="testimonial-author">MARIA SANCHEZ</p>
+        </div>
+        
+        <div class="testimonial-slide ">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Their coffee and pastry pairing suggestions have transformed my morning routine completely."</p>
+          <p class="testimonial-author">DAVID MILLER</p>
+        </div>
+        
+      </div>
+      <div class="testimonial-pagination">
+        
+        <span class="testimonial-dot active" data-slide="0"></span>
+        
+        <span class="testimonial-dot " data-slide="1"></span>
+        
+        <span class="testimonial-dot " data-slide="2"></span>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section">
+    <div class="container">
+      <div class="categories-grid">
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="images/category-breakfast.jpg" alt="BREAKFAST">
+          </div>
+          <div class="category-content">
+            <h3 class="category-title">BREAKFAST</h3>
+            <p class="category-description">Start your day with our delicious breakfast.</p>
+          </div>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="images/category-pastry.jpg" alt="PASTRY">
+          </div>
+          <div class="category-content">
+            <h3 class="category-title">PASTRY</h3>
+            <p class="category-description">Fresh pastries made daily.</p>
+          </div>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="images/category-sandwiches.jpg" alt="SANDWICHES">
+          </div>
+          <div class="category-content">
+            <h3 class="category-title">SANDWICHES</h3>
+            <p class="category-description">Tasty sandwiches for every craving.</p>
+          </div>
+        </div>
+        
+        <div class="category-item">
+          <div class="category-image">
+            <img src="images/category-coffee.jpg" alt="COFFEE">
+          </div>
+          <div class="category-content">
+            <h3 class="category-title">COFFEE</h3>
+            <p class="category-description">Premium coffee and espresso drinks.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Section -->
+  <section class="promo-section">
+    <div class="container">
+      <div class="promo-grid">
+        <div class="promo-image">
+          <img src="images/brownies.jpg" alt="HAVE YOU TRIED OUR NEW BROWNIES YET?">
+        </div>
+        <div class="promo-content">
+          <h2 class="promo-title">HAVE YOU TRIED OUR NEW BROWNIES YET?</h2>
+          <p class="promo-text">Made with our 24-hour dark cocoa-infused batter, these brownies melt in your mouth with delectable richness. Each bite contains the perfect balance of fudgy texture and all-important flavor.</p>
+          <a href="#" class="promo-button">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="menu-grid">
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">PAIN CHOCOLAT</h3>
+          <p class="menu-item-description">Flaky, sweet bread twisted with milk and dark chocolate</p>
+          <span class="menu-item-price">$4.99</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">CROISSANT OMELETTE</h3>
+          <p class="menu-item-description">Flaky, sweet bread twisted with milk and dark chocolate</p>
+          <span class="menu-item-price">$8.99</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">BREAKFAST SANDWICH</h3>
+          <p class="menu-item-description">Served with two fresh eggs, sausage, cheese, toast</p>
+          <span class="menu-item-price">$6.99</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">ESCARGOT RAISIN</h3>
+          <p class="menu-item-description">Flaky, sweet bread twisted with cinnamon and raisins</p>
+          <span class="menu-item-price">$3.99</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">MULTIGRAIN HOT CEREAL</h3>
+          <p class="menu-item-description">Flaky, sweet bread twisted with milk and dark chocolate</p>
+          <span class="menu-item-price">$5.99</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">FRENCH CROISSANT</h3>
+          <p class="menu-item-description">Flaky, sweet bread twisted with milk and dark chocolate</p>
+          <span class="menu-item-price">$3.50</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">LEMON YOGURT PARFAIT</h3>
+          <p class="menu-item-description">Layered with fresh fruit, yogurt, crunchy granola, mint</p>
+          <span class="menu-item-price">$6.00</span>
+        </div>
+        
+        <div class="menu-item">
+          <h3 class="menu-item-title">CHAUSSON POMME</h3>
+          <p class="menu-item-description">Flaky, sweet bread filled with caramelized apples</p>
+          <span class="menu-item-price">$4.99</span>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div id="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column brand-column">
+          <div class="footer-logo">
+            <h1 class="logo-text">Zummys Cake’s boutique</h1>
+          </div>
+          <p class="footer-about">Welcome to Zummys Cake’s boutique! We are passionate about fresh baked goods and great service.</p>
+          <div class="footer-contact">
+            <p><i class="fas fa-phone"></i> +1 704-837-6919</p>
+          </div>
+        </div>
+        <div class="footer-column links-column">
+          <h3 class="footer-title">USEFUL LINKS</h3>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column news-column">
+          <h3 class="footer-title">NEWS</h3>
+          <div class="footer-news-items">
+            
+            <div class="footer-news-item">
+              <div class="news-image">
+                <img src="images/news-1.jpg" alt="Grand Opening!">
+              </div>
+              <div class="news-content">
+                <h4>Grand Opening!</h4>
+                <p>May 2025</p>
+              </div>
+            </div>
+            
+            <div class="footer-news-item">
+              <div class="news-image">
+                <img src="images/news-2.jpg" alt="Try our new pastries">
+              </div>
+              <div class="news-content">
+                <h4>Try our new pastries</h4>
+                <p>May 2025</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer-column instagram-column">
+          <h3 class="footer-title">INSTAGRAM</h3>
+          <div class="instagram-gallery">
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-1.jpg" alt="Instagram">
+            </a>
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-2.jpg" alt="Instagram">
+            </a>
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-3.jpg" alt="Instagram">
+            </a>
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-4.jpg" alt="Instagram">
+            </a>
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-5.jpg" alt="Instagram">
+            </a>
+            
+            <a href="#" class="instagram-item">
+              <img src="images/insta-6.jpg" alt="Instagram">
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-social">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>© 2025 Zummys Cake’s boutique. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
+</body>
+</html>
